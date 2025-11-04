@@ -2,6 +2,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
+    const navbar = document.querySelector('.navbar');
+    
+    // Get navbar height dynamically
+    const NAVBAR_HEIGHT = navbar.offsetHeight;
 
     // Toggle mobile menu
     hamburger.addEventListener('click', function() {
@@ -25,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                const offsetTop = target.offsetTop - 60; // Account for fixed navbar
+                const offsetTop = target.offsetTop - NAVBAR_HEIGHT;
                 window.scrollTo({
                     top: offsetTop,
                     behavior: 'smooth'
