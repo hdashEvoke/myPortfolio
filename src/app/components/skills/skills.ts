@@ -24,7 +24,7 @@ export class SkillsComponent {
     { name: 'Express', level: 75, category: 'Backend' },
     { name: 'MongoDB', level: 70, category: 'Backend' },
     { name: 'Git', level: 85, category: 'Tools' },
-    { name: 'Docker', level: 65, category: 'Tools' },
+    
   ];
 
   get frontendSkills(): Skill[] {
