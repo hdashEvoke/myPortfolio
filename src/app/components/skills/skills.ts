@@ -16,14 +16,18 @@ interface Skill {
 export class SkillsComponent {
   skills: Skill[] = [
     { name: 'Angular', level: 90, category: 'Frontend' },
+    { name: 'React', level: 80, category: 'Frontend' },
+    { name: 'Next.js', level: 70, category: 'Full Stack' },
     { name: 'TypeScript', level: 85, category: 'Frontend' },
-    { name: 'JavaScript', level: 90, category: 'Frontend' },
-    { name: 'HTML5', level: 95, category: 'Frontend' },
+    { name: 'JavaScript', level: 80, category: 'Frontend' },
+    { name: 'HTML5', level: 90, category: 'Frontend' },
     { name: 'CSS3', level: 90, category: 'Frontend' },
+    { name: 'Bootstrap', level: 90, category: 'Frontend' },
     { name: 'Node.js', level: 80, category: 'Backend' },
-    { name: 'Express', level: 75, category: 'Backend' },
+    { name: 'Express', level: 70, category: 'Backend' },
     { name: 'MongoDB', level: 70, category: 'Backend' },
-    { name: 'Git', level: 85, category: 'Tools' },
+    { name: 'Git', level: 80, category: 'Tools' },
+
     
   ];
 
