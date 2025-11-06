@@ -17,7 +17,7 @@ export class SkillsComponent {
   skills: Skill[] = [
     { name: 'Angular', level: 90, category: 'Frontend' },
     { name: 'React', level: 80, category: 'Frontend' },
-    { name: 'Next.js', level: 70, category: 'Full Stack' },
+    { name: 'Next.js', level: 70, category: 'Backend' },
     { name: 'TypeScript', level: 85, category: 'Frontend' },
     { name: 'JavaScript', level: 80, category: 'Frontend' },
     { name: 'HTML5', level: 90, category: 'Frontend' },
