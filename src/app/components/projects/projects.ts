@@ -17,27 +17,27 @@ interface Project {
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      title: 'Portfolio Website',
-      description: 'A responsive portfolio website built with Angular showcasing projects and skills.',
-      technologies: ['Angular', 'TypeScript', 'CSS3', 'HTML5'],
+      title: 'Procurement AI',
+      description: 'A responsive website built with Angular showcasing the procurement process for the vendors with the help of AI Automation.',
+      technologies: ['Angular 18', 'Python', 'CSS3', 'Bootstrap', 'HTML5'],
       link: '#'
     },
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-featured e-commerce application with shopping cart and payment integration.',
-      technologies: ['Angular', 'Node.js', 'MongoDB', 'Express'],
+      title: 'CSC-LMS',
+      description: 'Full-featured  application for the legal entity management.',
+      technologies: ['Angular', "Spring Boot", "Angular Material", 'Bootstrap', 'HTML5'],
       link: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management tool with real-time updates and team features.',
-      technologies: ['Angular', 'Firebase', 'RxJS', 'Material Design'],
+      title: 'i-receivables',
+      description: 'Collaborative Invoice & payments management system for small and medium businesses.',
+      technologies: ['Angular', '.NET', 'RxJS', 'Material Design'],
       link: '#'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Interactive weather dashboard displaying real-time weather data and forecasts.',
-      technologies: ['Angular', 'REST APIs', 'Chart.js', 'TypeScript'],
+      title: 'Reusable components library',
+      description: 'Library of reusable Angular components for Organisational developer use.',
+      technologies: ['Angular', 'HTML5', 'CSS', 'Bootstrap','Angular Material', 'REST APIs', 'Chart.js', 'TypeScript'],
       link: '#'
     }
   ];
