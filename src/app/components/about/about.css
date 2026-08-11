@@ -97,6 +97,10 @@ h1 {
     flex-direction: column;
     text-align: center;
   }
+  .container {
+ 
+  padding: 9rem 2rem;
+}
 
   h1 {
     font-size: 2rem;

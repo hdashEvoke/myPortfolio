@@ -88,6 +88,11 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+  .container {
+ 
+  padding: 9rem 2rem;
+}
+
   h1 {
     font-size: 2rem;
   }

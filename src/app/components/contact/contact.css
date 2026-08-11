@@ -132,6 +132,10 @@ h1 {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+   .container {
+ 
+  padding: 9rem 2rem;
+}
 
   h1 {
     font-size: 2rem;
