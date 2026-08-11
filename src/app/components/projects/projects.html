@@ -1,0 +1,23 @@
+<div class="projects">
+  <div class="container">
+    <h1>My Projects</h1>
+    <p class="intro">Here are some of the projects I've worked on</p>
+
+    <div class="projects-grid">
+      @for (project of projects; track project.title) {
+        <div class="project-card">
+          <h3>{{ project.title }}</h3>
+          <p class="description">{{ project.description }}</p>
+          <div class="technologies">
+            @for (tech of project.technologies; track tech) {
+              <span class="tech-tag">{{ tech }}</span>
+            }
+          </div>
+          @if (project.link) {
+            <a [href]="project.link" class="project-link">View Project →</a>
+          }
+        </div>
+      }
+    </div>
+  </div>
+</div>

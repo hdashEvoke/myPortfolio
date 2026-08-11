@@ -1,0 +1,85 @@
+<div class="contact">
+  <div class="container">
+    <h1>Get In Touch</h1>
+    <p class="intro">Have a question or want to work together? Feel free to reach out!</p>
+
+    <div class="contact-content">
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+         <div class="info-item">
+          <strong>Name:</strong>
+          <p>Himanshu Sekhar Dash</p>
+        </div>
+         <div class="info-item">
+          <strong>Mobile:</strong>
+          <p>+91 9886291061</p>
+        </div>
+        <div class="info-item">
+          <strong>Email:</strong>
+          <p>hdash1629@gmail.com</p>
+        </div>
+        <div class="info-item">
+          <strong>Location:</strong>
+          <p>Hyderabad, India</p>
+        </div>
+        <div class="info-item">
+          <strong>Social Media:</strong>
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+           <a href="https://linkedin.com/in/himanshu-sekhar-dash-0b8812158" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2>Send a Message</h2>
+        @if (submitted) {
+          <div class="success-message">
+            Thank you for your message! I'll get back to you soon.
+          </div>
+        } @else {
+          <form (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                [(ngModel)]="contactForm.name"
+                name="name"
+                required
+                placeholder="Your Name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                [(ngModel)]="contactForm.email"
+                name="email"
+                required
+                placeholder="your.email@example.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                [(ngModel)]="contactForm.message"
+                name="message"
+                rows="5"
+                required
+                placeholder="Your message here..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        }
+      </div>
+    </div>
+  </div>
+</div>
